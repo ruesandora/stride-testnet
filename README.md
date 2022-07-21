@@ -5,6 +5,15 @@
 ![image](https://user-images.githubusercontent.com/101149671/180230551-dbc0d5f0-b087-483f-9e7a-95711a820209.png)
 
 
+# Sistem gereksinimleri, "benim" önerim:
+
+* Bir tık altıda yeter diye düşünüyorum.
+```
+4 CPU
+8 RAM
+200 GB SSD
+```
+
 # Kurulum:
 
 ```
@@ -42,6 +51,8 @@ strided tx staking create-validator \
 # Explorer kontrol: https://stride.explorers.guru/validator/stridevaloper1vm6wnmvxugqj8k6s6d2cktgctc550qaq53jyus
 
 # sorular için: https://t.me/StrideTurkish
+
+# Discorddan role-requestten rol de alabılırsınız.
 
 # Hesaplar:
 
