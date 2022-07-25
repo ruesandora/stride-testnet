@@ -21,12 +21,13 @@ strided tx stakeibc redeem-stake 500 GAIA cosmos1vm6wnmvxugqj8k6s6d2cktgctc550qa
 
 # Bu görevin Komutunda düzenlemeniz gereken tek kısım stride adresi, adresi explorer üzerinde ki cüzdan adresiniz yapın. (Account: https://stride.explorers.guru/)
 
-* Görselde ki çıktıyı almanız biraz uzun sürebilir, 10-15 dk aralıklarla deneyin.
+* GÖRSELDE Kİ ÇIKTIYI ALMANIZ UZUN SÜREBİLİR 10-15DK ARALIKLARLA DENEYIN
 
 ```
 strided q records list-user-redemption-record --output json | jq --arg WALLET_ADDRESS "stride1d6v2gd0hzzg8hp7jzkfsp8uyqd5hh5tsnvjxuv" '.UserRedemptionRecord | map(select(.sender == $WALLET_ADDRESS))'
 ```
 
+* GÖRSELDE Kİ ÇIKTIYI ALMANIZ UZUN SÜREBİLİR 10-15DK ARALIKLARLA DENEYIN
 ![image](https://user-images.githubusercontent.com/101149671/180779195-57e97d6c-5658-4d80-af22-d704a8c0cd79.png)
 
 
