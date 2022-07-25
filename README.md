@@ -7,11 +7,11 @@
 
 # Sistem gereksinimleri, "benim" önerim:
 
-* Bir tık altıda yeter diye düşünüyorum.
+
 ```
 4 CPU
 8 RAM
-200 GB SSD
+160 GB SSD
 ```
 
 # Kurulum:
