@@ -6,7 +6,7 @@
 * Cüzdan adınızı ekleyin.
 
 ```
-strided tx stakeibc liquid-stake 1000 uatom --from CÜZDAN ADINIZ --chain-id STRIDE-1 --gas 500000 -y
+strided tx stakeibc liquid-stake 1000 uatom --from CÜZDAN ADINIZ --chain-id STRIDE-1 --gas auto -y
 ```
 
 # Redeem görevi:
