@@ -18,7 +18,7 @@ strided tx stakeibc liquid-stake 1000 uatom --from CÜZDAN ADINIZ --chain-id STR
 strided tx stakeibc redeem-stake 500 GAIA cosmos1vm6wnmvxugqj8k6s6d2cktgctc550qaq50kyye  --chain-id STRIDE-1 --from rues --gas 500000 -y
 ```
 
-# Bu görevin Komutunda düzenlemeniz gereken tek kısım adres, adresi explorer üzerinde ki cüzdan adresiniz yapın. (Account: https://stride.explorers.guru/)
+# Bu görevin Komutunda düzenlemeniz gereken tek kısım stride adresi, adresi explorer üzerinde ki cüzdan adresiniz yapın. (Account: https://stride.explorers.guru/)
 ```
 strided q records list-user-redemption-record --output json | jq --arg WALLET_ADDRESS "stride1d6v2gd0hzzg8hp7jzkfsp8uyqd5hh5tsnvjxuv" '.UserRedemptionRecord | map(select(.sender == $WALLET_ADDRESS))'
 ```
