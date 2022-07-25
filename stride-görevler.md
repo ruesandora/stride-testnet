@@ -24,7 +24,7 @@ strided tx stakeibc redeem-stake 500 GAIA cosmos1vm6wnmvxugqj8k6s6d2cktgctc550qa
 * GÖRSELDE Kİ ÇIKTIYI ALMANIZ UZUN SÜREBİLİR 10-15DK ARALIKLARLA DENEYIN
 
 ```
-strided q records list-user-redemption-record --output json | jq --arg WALLET_ADDRESS "stride1d6v2gd0hzzg8hp7jzkfsp8uyqd5hh5tsnvjxuv" '.UserRedemptionRecord | map(select(.sender == $WALLET_ADDRESS))'
+strided q records list-user-redemption-record --output json | jq --arg stride1hfjy2cr09hddsgzp84nuue08tx8thhv4xy7gth '.UserRedemptionRecord | map(select(.sender == $WALLET_ADDRESS))'
 ```
 
 * GÖRSELDE Kİ ÇIKTIYI ALMANIZ UZUN SÜREBİLİR 10-15DK ARALIKLARLA DENEYIN
