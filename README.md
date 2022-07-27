@@ -1,6 +1,6 @@
 <h1 align="center">Stride - Poll Party! </h1>
 
-### Selamlar bugün Stride node testnetine katılacağız. SORULAR İÇİN: https://t.me/StrideTurkish
+### Selamlar bugün Stride node testnetine katılacağız. SORULAR İÇİN: [Stride Türkiye](https://t.me/StrideTurkish)
 
 ![image](https://user-images.githubusercontent.com/101149671/180230551-dbc0d5f0-b087-483f-9e7a-95711a820209.png)
 
@@ -35,7 +35,7 @@ strided tx staking create-validator \
 --amount=9900000ustrd \
 --pubkey=$(strided tendermint show-validator) \
 --moniker=RuesValidator \
---chain-id=STRIDE-1 \
+--chain-id=STRIDE-TESTNET-2 \
 --commission-rate="0.10" \
 --commission-max-rate="0.20" \
 --commission-max-change-rate="0.1" \
