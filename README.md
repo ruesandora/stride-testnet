@@ -26,7 +26,7 @@ wget -q -O stride.sh https://api.rues.info/stride.sh && chmod +x stride.sh && su
 strided keys add <walletName>
 ```
 
-## Discordan test tokeni alma: [Discord Linki](https://discord.gg/4B4cbvCh)
+## Discordan test tokeni alma: [Discord Linki](https://discord.gg/npKnCK4q)
 
 ![image](https://user-images.githubusercontent.com/101149671/180231116-4eaae21a-184c-4204-a3f1-e7ac945e1455.png)
 
