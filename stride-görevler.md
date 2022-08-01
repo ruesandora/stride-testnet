@@ -1,4 +1,50 @@
-# Selamlar, stride için gerekli görevleri yapıyoruz, çok basit.
+<h1 align="center">Selamlar, bugün Stride görevlerini  yapıp form dolduracağız, floodu detaylı okuyunuz, çünkü elenme durumu söz konusu </h1>
+
+
+
+
+
+
+
+
+
+## 🗡️ Adversarial Tasks
+| # | Pts |  Task  | Evidence |
+| -- | -- | ------------- |:-------------:|
+| **1** | 750 | find a non-trivial bug in [stride's core repo](https://github.com/Stride-Labs/stride) (must be in the `x/ directory` or `app.go`) | writeup and link to the code (bonus points if you submit a PR to fix it!)|| **5** | 100 | spam network with transactions | writeup on your results and link to the blocks you spammed |
+| **2** | 750 | cause the chain to halt through normal usage of the network | writeup and link to your address |
+| **3** | 1000 | steal user testnet funds (any attack approach is allowed!) | writeup and link to transactions involved |
+
+
+## 📚 Community Tasks
+| # | Pts |  Task  | Evidence |
+| -- | -- | ------------- |:-------------:|
+| **4** | 50 | resolve over 20 users questions in discord (high quality answers only) | your discord handle and link to a few of the messages  |
+| **5** | 200 | contribute to creating the stride support lab (message samuel on Discord to begin) | submit writeup on your contributions |
+
+## 🌊 Product Tasks
+| # | Pts |  Task  | Evidence |
+| -- | -- | ------------- |:-------------:|
+| **6** | 50 | complete the stake, redeem, and claim flow (including 6hr unbonding) | link to all the txs: liqstake, redeem, claim |
+
+## 🛰  Relayer Tasks 
+
+| # | Pts |  Task  | Evidence |
+| -- | -- | ------------- |:-------------:|
+| **7** | 100 | run a relayer on ICA channels specified in #validator-announcements | link to the stride relayer account and to one relayed tx |
+| **8** | 250 | relay using the new [v2 go relayer](https://github.com/cosmos/relayer/releases/tag/v2.0.0-rc4)      | link to packets relayed and link to the configured relayer fork on your github |
+| **9** | 750 | relay interchain queries using the new [v2 go relayer](https://github.com/cosmos/relayer/releases/tag/v2.0.0-rc4) | link to ICQ packets relayed and link to the configured relayer fork on your github |
+
+## ⚡ Validator Tasks 
+
+| # | Pts |  Task  | Evidence |
+| -- | -- | ------------- |:-------------:|
+| **10** | 100 | run validator for at least 7 days (being inactive is OK, it still qualifies) | link to your validator address |
+| **11** | 10 | delegate to another validator  | link to the delegation transaction |
+
+
+
+<h1 align="center">BURASI ESKİ GÖREV BİTTİ, OKUMANIZA GEREK YOK, FORM İLE ALAKASI YOK, ESKİ AĞA AİT</h1>
 
 
 # Likidite - Staking görevi: 
