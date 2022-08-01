@@ -3,15 +3,19 @@
 
 
 
+# Bazı görevlerde yalnızsınız, kişisel görevler, ben açıklama bırakacağım sizin yapmanız gerekiyor, "ANCAK":
+
+* Kişisel görevlerde başkasının görevini veya PR'ını (pull request) kopyalamak veya discord/ telegram kanallarında sormak yasak.
+* Sadece #incentive-tasks discord odasında sorabilirsiniz görev sorularını.
+*
 
 
-
-
+ 
 
 ## 🗡️ Adversarial Tasks
 | # | Pts |  Task  | Evidence |
 | -- | -- | ------------- |:-------------:|
-| **1** | 750 | find a non-trivial bug in [stride's core repo](https://github.com/Stride-Labs/stride) (must be in the `x/ directory` or `app.go`) | writeup and link to the code (bonus points if you submit a PR to fix it!)|| **5** | 100 | spam network with transactions | writeup on your results and link to the blocks you spammed |
+| **1** | 750 | Stride'ın [core repo'sunda](https://github.com/Stride-Labs/stride) bir hata bulun. | Yaparsanız forma PR'ınızın linkini ekleyin|| **5** | 100 | spam network with transactions | writeup on your results and link to the blocks you spammed |
 | **2** | 750 | cause the chain to halt through normal usage of the network | writeup and link to your address |
 | **3** | 1000 | steal user testnet funds (any attack approach is allowed!) | writeup and link to transactions involved |
 
