@@ -37,7 +37,7 @@ strided tx stakeibc redeem-stake 500 GAIA cosmos1vm6wnmvxugqj8k6s6d2cktgctc550qa
 strided tx stakeibc claim-undelegated-tokens GAIA 296 stride1d6v2gd0hzzg8hp7jzkfsp8uyqd5hh5tsnvjxuv --chain-id STRIDE-TESTNET-2 --from rues -y
 ```
 
-# IBC, bu görevler arasında yok ama neden yapmayalım :):
+# IBC, bu, görevler arasında yok ama neden yapmayalım :):
 
 * From cüzdan adınız olcak.
 * Komutu direkt kullanabilirsiniz
