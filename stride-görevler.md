@@ -55,7 +55,7 @@ strided tx ibc-transfer -y transfer transfer channel-22 sei1654kj35pszp4t49wcglw
 
 # Relayer görevi hakkında:
 
-### Arkadaşlar normal şartlarda buraları kendiniz yapmanız gerekiyor, benim paylaşmamam gerekiyor ama size yol gösterici bir şekilde rehber paylaşacağım. Lütfen unutmayın bu sorular "TELEGRAMDA" veya "DİSCORDDA" sormanız yasak.. Stride Türkiye grubunun Resmi kanal olduğunu unutmayın, burada yalnızsınız ve sizin gayretinize kalmış. (Normalde bir sürü şey yazmıştım ama buna izin yokmuş :/)
+### Arkadaşlar normal şartlarda buraları kendiniz yapmanız gerekiyor, benim paylaşmamam gerekiyor, bunu yapmama müsade edilmiyor, herkesin kendisi yapılması konusunda ısrarla belirtilmiş, yaklaşık 4 gündür bu konu ile ilgileniyorum.. Lütfen unutmayın bu sorular "TELEGRAMDA" veya "DİSCORDDA" sormanız yasak.. Stride Türkiye grubunun Resmi kanal olduğunu unutmayın, burada yalnızsınız ve sizin gayretinize kalmış. (Normalde bir sürü şey yazmıştım ama buna izin yokmuş :/)
 
 ![image](https://user-images.githubusercontent.com/101149671/183241967-5b0cddee-df42-4722-a372-974e8ad1369d.png)
 
