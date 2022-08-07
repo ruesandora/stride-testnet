@@ -236,3 +236,8 @@ screen -S hermes
 ```
 journalctl -u hermesd.service -fo cat
 ```
+
+## Aşağıdaki komut hermes transfer komusu Stride tan Sei ağına 1000 ustrd yolladım.
+```
+hermes tx raw ft-transfer atlantic-1 STRIDE-TESTNET-2 transfer channel-271 1000 -t 60 -o 100
+```
