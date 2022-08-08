@@ -1,7 +1,5 @@
 <h1 align="center"> FLOOD TAMAMLANMADI KURULUM YAPMAYIN </h1>
 
-
-
 <h1 align="center">Selamlar, bugün Stride görevlerini  yapıp form dolduracağız, floodu detaylı okuyunuz, çünkü ELENME durumu söz konusu </h1>
 
 # Bazı görevlerde yalnızsınız, kişisel görevler, ben açıklama bırakacağım sizin yapmanız gerekiyor, "ANCAK":
@@ -269,7 +267,7 @@ gaiad tx staking create-validator \
   --chain-id GAIA
 ```
 
-<h1 align="center"> STRIDE-GAIA HERMES </h1>
+<h1 align="center"> STRIDE-GAIA HERMES task-7 </h1>
 
 # Bu rehber, Hermes'i Stride STRIDE-TESTNET-2 nodeunuzun kurulu olduğu sunucu ile aynı sunucuya kurulum yapacağınızı varsayar ve yapılandırmalar ona göre ayarlanmıştır. 
 
@@ -532,7 +530,7 @@ hermes tx raw ft-transfer STRIDE-TESTNET-2 GAIA transfer channel-0 1000 -d uatom
 ![image](https://user-images.githubusercontent.com/101149671/183290069-ea2bdf10-a1d1-4b6e-a308-2797f9f1f04f.png)
 
 
-<h1 align="center"> RELAYER v2 </h1>
+<h1 align="center"> RELAYER v2 task-8</h1>
 
 
 ## BU KISIM STRIDE ICERSINDE CALISTIRILACAK
@@ -806,6 +804,30 @@ rly transact transfer stride gaia 1000ustrd cosmoadresi channel-0 --path stride-
 ```
 rly transact transfer gaia stride 1000uatom strideadresi channel-0 --path stride-gaia
 ```
+
+<h1 align="center"> RELAYER ICQ task-9</h1>
+
+
+## İkili dosyaları indirin ve oluşturun
+```
+cd $HOME
+git clone https://github.com/Stride-Labs/interchain-queries.git
+cd interchain-queries
+go build
+cd
+sudo mv interchain-queries /usr/local/bin/icq
+```
+
+
+
+
+
+
+
+
+
+
+
 
 
 
