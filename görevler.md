@@ -24,7 +24,7 @@ strided tx stakeibc liquid-stake 1000 uatom --from CÜZDAN ADINIZ --chain-id STR
 
 * Cosmos: cüzdanı kısmına KEPLR'da yazan GAIA ağını ekleyın.
 * From: kısmı cüzdan adınız
-* GAIA ağını eklemek için : https://twitter.com/Ruesandora0/status/1550485313243545601?s=20&t=PWfmmnIxju9LN-kGW5VznA
+* GAIA ağını eklemek için : [Gaia](https://twitter.com/Ruesandora0/status/1550485313243545601?s=20&t=PWfmmnIxju9LN-kGW5VznA)
 
 ```
 strided tx stakeibc redeem-stake 500 GAIA cosmos1vm6wnmvxugqj8k6s6d2cktgctc550qaq50kyye  --chain-id STRIDE-TESTNET-2 --from CÜZDANADIN --gas 500000 -y
