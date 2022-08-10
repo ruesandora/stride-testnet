@@ -352,4 +352,8 @@ nano $HOME/.relayer/stride.json
 }
 ```
 
+## Şimdi burada yaptığımız "forku"  - "kendi yaptığınız forku" formda bir yere eklersiniz.
 
+* tekrar altını çiziyorum size ait forku, sol üstte ruesandora değil siz yazacaksınız.
+
+![image](https://user-images.githubusercontent.com/101149671/183977194-e0f86d5b-fa23-4ba5-a0ea-a7590f28a94c.png)
