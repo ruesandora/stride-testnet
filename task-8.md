@@ -272,3 +272,84 @@ rly transact transfer stride gaia 1000ustrd cosmoadresi channel-0 --path stride-
 ```
 rly transact transfer gaia stride 1000uatom strideadresi channel-0 --path stride-gaia
 ```
+
+# BİTMEDİ DEVAMI VAR:
+
+## Burada ki repoyu forkluyoruz:
+
+* [cosmos/relayer](https://github.com/cosmos/relayer)
+
+## configs'in içine giriyoruz:
+
+![image](https://user-images.githubusercontent.com/101149671/183974578-fa6c9b0b-9f33-4831-a84f-619d2cf225ac.png)
+
+## Create new file diyoruz ve Stride adında dosya oluşturuyoruz:
+
+![image](https://user-images.githubusercontent.com/101149671/183974813-50dc348e-1dac-4fbe-9cd9-930089628f7c.png)
+
+## Şimdi 2 dosya oluşturuyoruz:
+
+* İlki chains
+* İkinci paths adında dosyalar:
+* Dosya oluştururken sonlarına / işareti koyalım. (2. görsele bakın)
+
+![image](https://user-images.githubusercontent.com/101149671/183974963-1c598e6f-ce83-47c4-9eb3-a99f1e68c896.png)
+
+* /
+
+![image](https://user-images.githubusercontent.com/101149671/183975218-b5ffae4d-2e17-4f7a-af18-9b5532020069.png)
+
+## Şimdi stride.json ve gaia.json oluşturup içlerini dolduracağız.
+
+![image](https://user-images.githubusercontent.com/101149671/183975140-86db0a46-5c4b-45f0-9db0-59ccdf089e51.png)
+
+
+## Gaia nodumuza giriyoruz:
+
+* Altta ki komutu giriyoruz ve çıktıyı kopyalıyoruz.
+* Kopyaladığımız çıktıyı yukarıda oluşturduğumuz gaia.json dosyasına ekliyoruz.
+
+```
+nano $HOME/.relayer/gaia.json
+```
+![image](https://user-images.githubusercontent.com/101149671/183975788-17467305-8ead-4e75-8c89-c3541fd7f46e.png)
+
+## Stride nodumuza giriyoruz:
+
+* Altta ki komutu giriyoruz ve çıktıyı kopyalıyoruz.
+* Kopyaladığımız çıktıyı yukarıda oluşturduğumuz stride.json dosyasına ekliyoruz.
+* Tıpkı yukarda ki gibi.
+
+```
+nano $HOME/.relayer/stride.json
+```
+
+## Şimdi yukarıda confingin içine girip stride oluşturduk onunda içine girip chains ve paths oluşturduk, chains'in içine gaia ve stride ile doldurduk, şimdi paths'ın içine girelim.
+
+* paths'ın içine stride-gaia.json oluşturalım
+
+![image](https://user-images.githubusercontent.com/101149671/183976375-bda2ac1c-9e22-4ea1-a302-4d507d3eaacd.png)
+
+
+## stride-gaia.json'un içine altta ki kodu girin ve kaydedin.
+
+```
+{
+  "src": {
+    "chain-id": "STRIDE-TESTNET-2",
+    "client-id": "07-tendermint-0",
+    "connection-id": "connection-0"
+  },
+  "dst": {
+    "chain-id": "GAIA",
+    "client-id": "07-tendermint-0",
+    "connection-id": "connection-0"
+  },
+  "src-channel-filter": {
+    "rule": "allowlist",
+    "channel-list": ["channel-0", "channel-1", "channel-2", "channel-3", "channel-4"]
+  }
+}
+```
+
+
