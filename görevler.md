@@ -17,7 +17,7 @@
 * Cüzdan adınızı ekleyin.
 
 ```
-strided tx stakeibc liquid-stake 1000 uatom --from CÜZDAN ADINIZ --chain-id STRIDE-TESTNET-2 --gas auto -y
+strided tx stakeibc liquid-stake 1000 uatom --from CÜZDAN ADINIZ --chain-id STRIDE-TESTNET-4 --gas auto -y
 ```
 
 # Redeem görevi task-6:
@@ -27,7 +27,7 @@ strided tx stakeibc liquid-stake 1000 uatom --from CÜZDAN ADINIZ --chain-id STR
 * GAIA ağını eklemek için : [Gaia](https://twitter.com/Ruesandora0/status/1550485313243545601?s=20&t=PWfmmnIxju9LN-kGW5VznA)
 
 ```
-strided tx stakeibc redeem-stake 500 GAIA cosmos1vm6wnmvxugqj8k6s6d2cktgctc550qaq50kyye  --chain-id STRIDE-TESTNET-2 --from CÜZDANADIN --gas 500000 -y
+strided tx stakeibc redeem-stake 500 GAIA cosmos1vm6wnmvxugqj8k6s6d2cktgctc550qaq50kyye  --chain-id STRIDE-TESTNET-4 --from CÜZDANADIN --gas 500000 -y
 ```
 
 # Claim görevi task-6:
@@ -35,7 +35,7 @@ strided tx stakeibc redeem-stake 500 GAIA cosmos1vm6wnmvxugqj8k6s6d2cktgctc550qa
 * Şu an burada claim edilcek token gözükmüyor, hata alabilir herkes, bende aldım. İsterseniz deneyin, düzelirse paylaşırım telegramda
 
 ```
-strided tx stakeibc claim-undelegated-tokens GAIA 296 stride1d6v2gd0hzzg8hp7jzkfsp8uyqd5hh5tsnvjxuv --chain-id STRIDE-TESTNET-2 --from rues -y
+strided tx stakeibc claim-undelegated-tokens GAIA 296 stride1d6v2gd0hzzg8hp7jzkfsp8uyqd5hh5tsnvjxuv --chain-id STRIDE-TESTNET-4 --from rues -y
 ```
 
 ## Bu üçü tek göreve karşılık geliyor (6 numaralı görev)
@@ -52,7 +52,7 @@ strided tx staking delegate stridevaloper1d6v2gd0hzzg8hp7jzkfsp8uyqd5hh5tssek6sf
 * Komutu direkt kullanabilirsiniz
 
 ```
-strided tx ibc-transfer -y transfer transfer channel-22 sei1654kj35pszp4t49wcglwcg0cwlxg5vvw8rv32t 10000ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2  --chain-id STRIDE-TESTNET-2 --from rues
+strided tx ibc-transfer -y transfer transfer channel-22 sei1654kj35pszp4t49wcglwcg0cwlxg5vvw8rv32t 10000ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2  --chain-id STRIDE-TESTNET-4 --from rues
 ```
 
 ## Kolay görevler:
