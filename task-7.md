@@ -1,7 +1,7 @@
 
 <h1 align="center"> STRIDE-GAIA HERMES task-7 </h1>
 
-# Bu rehber, Hermes'i Stride STRIDE-TESTNET-2 nodeunuzun kurulu olduğu sunucu ile aynı sunucuya kurulum yapacağınızı varsayar ve yapılandırmalar ona göre ayarlanmıştır. 
+# Bu rehber, Hermes'i Stride STRIDE-TESTNET-4 nodeunuzun kurulu olduğu sunucu ile aynı sunucuya kurulum yapacağınızı varsayar ve yapılandırmalar ona göre ayarlanmıştır. 
 
 ### GAIA kurmadıysanız: [GAIA Rehberi](https://github.com/ruesandora/GAIA)
 
@@ -133,7 +133,7 @@ host = '127.0.0.1'
 port = 3001
 
 [[chains]]
-id = 'STRIDE-TESTNET-2'
+id = 'STRIDE-TESTNET-4'
 rpc_addr = 'http://127.0.0.1$PORTR'
 grpc_addr = 'http://127.0.0.1$PORTG'
 websocket_addr = 'ws://127.0.0.1$PORTR/websocket'
@@ -180,7 +180,7 @@ EOF
 
 ## Cüzdanınızı içe aktarın
 ```
-hermes keys restore STRIDE-TESTNET-2 -m "$MNEMONIC1"
+hermes keys restore STRIDE-TESTNET-4 -m "$MNEMONIC1"
 ```
 ```
 hermes keys restore GAIA -m "$MNEMONIC2"
@@ -247,10 +247,10 @@ journalctl -u hermesd.service -fo cat
 * Cüzdan adreslerinizi değiştirin.
 
 ```
-hermes tx raw ft-transfer GAIA STRIDE-TESTNET-2 transfer channel-0 1000 -d ustrd -r strıdecüzdanı -t 60 -o 100
+hermes tx raw ft-transfer GAIA STRIDE-TESTNET-4 transfer channel-0 1000 -d ustrd -r strıdecüzdanı -t 60 -o 100
 ```
 ```
-hermes tx raw ft-transfer STRIDE-TESTNET-2 GAIA transfer channel-0 1000 -d uatom -r gaıacüzdanı -t 60 -o 100
+hermes tx raw ft-transfer STRIDE-TESTNET-4 GAIA transfer channel-0 1000 -d uatom -r gaıacüzdanı -t 60 -o 100
 ```
 
 ## Explorer'dan işlemleri kontrol edelim: [Explorer Linki](https://poolparty.stride.zone/GAIA/staking)
