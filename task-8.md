@@ -108,7 +108,7 @@ sudo tee $HOME/.relayer/stride.json > /dev/null <<EOF
   "type": "cosmos",
   "value": {
     "key": "rues",
-    "chain-id": "STRIDE-TESTNET-2",
+    "chain-id": "STRIDE-TESTNET-4",
     "rpc-addr": "http://${STRIDE_RPC_ADDR}",
     "account-prefix": "stride",
     "keyring-backend": "test",
@@ -164,7 +164,7 @@ rly chains list
 ### Başarılı çıktı aşağıdaki gibi olmalı
 
 ```
- 1: STRIDE-TESTNET-2     -> type(cosmos) key(✘) bal(✘) path(✘)
+ 1: STRIDE-TESTNET-4     -> type(cosmos) key(✘) bal(✘) path(✘)
  2: GAIA                 -> type(cosmos) key(✘) bal(✘) path(✘)
 ```
 
@@ -195,7 +195,7 @@ rly q balance gaia
 ```
     stride-gaia:
         src:
-            chain-id: STRIDE-TESTNET-2
+            chain-id: STRIDE-TESTNET-4
             client-id: 07-tendermint-0
             connection-id: connection-0
         dst:
@@ -226,7 +226,7 @@ rly paths list
 * NOT: Yukarıda ki komutun çıktısı bu
 
 ```
-0: stride-gaia          -> chns(✔) clnts(✔) conn(✔) (STRIDE-TESTNET-2<>GAIA)
+0: stride-gaia          -> chns(✔) clnts(✔) conn(✔) (STRIDE-TESTNET-4<>GAIA)
 ```
 
 ## Hizmet oluştururalım:
@@ -336,7 +336,7 @@ nano $HOME/.relayer/stride.json
 ```
 {
   "src": {
-    "chain-id": "STRIDE-TESTNET-2",
+    "chain-id": "STRIDE-TESTNET-4",
     "client-id": "07-tendermint-0",
     "connection-id": "connection-0"
   },
